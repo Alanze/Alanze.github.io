@@ -59,14 +59,6 @@ author:
   youtube          :
   zhihu            :
 
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'
-  conferences:
-    title: 'Conference Papers'
-
 teaser                   :
 breadcrumbs              : false
 words_per_minute         : 160
@@ -185,8 +177,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
+    output: false
   portfolio:
     output: true
     permalink: /:collection/:path/
