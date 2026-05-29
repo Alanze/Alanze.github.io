@@ -43,13 +43,6 @@ Skills
 * **Frameworks & tools:** PyTorch, Transformers, YOLO, CLIP, SAM  
 * **Other:** LaTeX, Markdown  
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  <p><em>Publications will be listed here as they are added.</em></p>
-
 Portfolio
 ======
   <ul>{% for post in site.portfolio reversed %}
