@@ -11,54 +11,47 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Nanyang Technological University** — Graduate student, 2025 – present  
+* **Shanghai Jiao Tong University** — B.S. in Automation, IEEE Pilot Class, Aug 2021 – Jun 2025  
+  * Outstanding student recognition, 2022  
 
-Work experience
+Research experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Research intern**, IWIN-FINS Lab (FINS), Shanghai Jiao Tong University  
+  * Mar 2023 – Jun 2025  
+  * Supervisor: Prof. Jianping He  
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **DRPP with ambiguity sets for visual tracking**  
+  * PyTorch implementation; evaluation on OTB and TC128 benchmarks  
+  * Robust / distributionally robust formulation with ambiguity-set modeling  
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* **Real-time detection for PRCV-oriented scenarios** (Sep 2025 – Nov 2025)  
+  * YOLOv5, YOLOv8, and YOLO-Nano; TensorRT and ONNX deployment  
+  * ROI-focused pipeline; 150+ FPS inference; strong mAP gains on target benchmarks  
+
+* **Multi-object tracking** (Nov 2023 – Feb 2024)  
+  * YOLOv5 detector with DeepSORT and ByteTrack  
+  * IOU association, ReID features, GPU-accelerated pipeline  
+
+* **CUT++ unsupervised image translation** (Sep 2024 – Dec 2024)  
+  * CUT / GAN baselines with Transformer and PatchNCE  
+  * Diffusion-based variants; evaluation with INST, FID, and PSNR  
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Languages:** Python, C++, MATLAB  
+* **Frameworks & tools:** PyTorch, Transformers, YOLO, CLIP, SAM  
+* **Other:** LaTeX, Markdown  
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+  <p><em>Publications will be listed here as they are added.</em></p>
+
+Portfolio
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
+  <ul>{% for post in site.portfolio reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
