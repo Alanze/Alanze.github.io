@@ -25,10 +25,6 @@ Research experience
   * PyTorch implementation; evaluation on OTB and TC128 benchmarks  
   * Robust / distributionally robust formulation with ambiguity-set modeling  
 
-* **Real-time detection for PRCV-oriented scenarios** (Sep 2025 – Nov 2025)  
-  * YOLOv5, YOLOv8, and YOLO-Nano; TensorRT and ONNX deployment  
-  * ROI-focused pipeline; 150+ FPS inference; strong mAP gains on target benchmarks  
-
 * **Multi-object tracking** (Nov 2023 – Feb 2024)  
   * YOLOv5 detector with DeepSORT and ByteTrack  
   * IOU association, ReID features, GPU-accelerated pipeline  
