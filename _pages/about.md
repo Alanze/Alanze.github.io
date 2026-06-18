@@ -11,6 +11,8 @@ I am **Runze Guo (郭润泽)**, a graduate student at [Nanyang Technological Uni
 
 From Mar 2023 to Jun 2025, I was a research intern at the **[IWIN-FINS Lab](https://iwin-fins.com/)** (FINS), Shanghai Jiao Tong University, supervised by [Prof. Jianping He](https://automation.sjtu.edu.cn/JPHE). My work there focused on **visual object tracking**, **multi-object tracking**, and **generative models** for vision.
 
+Recent industry internships include **[KNQ](/internships/)** (May 2026 – present), where I work on **AI applications for large-model visual understanding**, and **[Pulse Vision](/internships/)** (Sep – Nov 2025), where I worked on real-time detection and edge deployment for PRCV-oriented scenarios.
+
 ### Research interests
 
 - Visual object tracking and robust learning under uncertainty  

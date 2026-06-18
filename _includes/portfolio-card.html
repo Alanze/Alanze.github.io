@@ -1,0 +1,34 @@
+{% include base_path %}
+
+{% if post.link %}
+  {% assign item_url = post.link %}
+  {% assign external = true %}
+{% else %}
+  {% assign item_url = post.url | prepend: base_path %}
+  {% assign external = false %}
+{% endif %}
+
+<article class="portfolio-card">
+  <div class="portfolio-card__row">
+    <div class="portfolio-card__content">
+      <h2 class="portfolio-card__title">
+        {% if external %}
+          <a href="{{ item_url }}" rel="noopener noreferrer">{{ post.title }}</a>
+        {% else %}
+          <a href="{{ item_url }}" rel="permalink">{{ post.title }}</a>
+        {% endif %}
+      </h2>
+      {% if post.excerpt %}
+        <div class="portfolio-card__excerpt">{{ post.excerpt | markdownify }}</div>
+      {% endif %}
+      {% if post.repo %}
+        <p><a href="{{ post.repo }}" rel="noopener noreferrer">View on GitHub</a></p>
+      {% endif %}
+    </div>
+    {% if post.image %}
+      <figure class="portfolio-card__figure">
+        <img src="{{ post.image | prepend: '/images/' | prepend: base_path }}" alt="{{ post.image_alt | default: post.title }}">
+      </figure>
+    {% endif %}
+  </div>
+</article>
